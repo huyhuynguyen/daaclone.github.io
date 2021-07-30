@@ -1,0 +1,167 @@
+@media (min-width: 1024px) {
+    .wrapper {
+        width: 93%;
+    }
+
+    .header__container-banner {
+        width: 100%;
+    }
+
+    .nav__mobile {
+        display: none;
+    }
+
+    .select__link-list {
+        width: 90%;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .wrapper {
+        width: 96%;
+    }
+
+    .header__container-banner {
+        width: 100%;
+    }
+
+    .nav__mobile {
+        display: none;
+    }
+
+    .nav__list {
+        height: 100%;
+    }
+
+    .nav__list-item:first-child {
+        margin-left: 0 !important;
+    }
+
+    .nav__list-item-link {
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        width: 92%;
+    }
+
+    .header__container-banner {
+        width: 100%;
+    }
+
+    .nav__tablet-PC {
+        display: none;
+    }
+
+    .nav__mobile {
+        background-color: var(--background-nav);
+        height: 48px;
+        padding: 10px 5px;
+        overflow: hidden;
+    }
+
+    .nav__mobile-btn-main {
+        padding: 5px 12px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        margin-left: 4px;
+    }
+
+    .nav__mobile-btn {
+        font-size: 1.5rem;
+        color: #cfcfcf;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        margin-top: 8px;
+        
+    }
+
+    .nav__list-item {
+        border: none;
+        overflow: hidden;
+    }
+
+    .nav__list-item-link {
+        font-size: 1.4rem;
+    }
+
+    .subnav {
+        display: block;
+        position: initial;
+        background-color: var(--background-nav);
+        border: none;
+        box-shadow: none;
+        margin-left: 20px;
+        padding: 0;
+        height: 0;
+    }
+
+    .subnav__level2 {
+        height: 0;
+        overflow: hidden;
+    }
+
+    .subnav__item-link {
+        color: #fff;
+        padding: 10px 15px;
+        font-weight: 600;
+        display: inline-block;
+        min-width: 178px;
+    }
+
+    .subnav__item-link--arrow-right::after {
+        right: auto;
+        top: 16px;
+        left: 40%;
+    }
+
+    .form__search {
+        width: 80%;
+    }
+
+    .form-group-input {
+        width: 100%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 44px;
+    }
+
+    .form-group-btn {
+        top: 10px;
+        right: 15px;
+    }
+
+    .form__group-login-input {
+        width: 95%;
+    }
+
+    .form__group + .form__group {
+        padding-top: 10px;
+    }
+
+    .form__btn {
+        padding: 8px;
+        width: 100px;
+        font-weight: 600;
+    }
+
+    .footer__container {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .footer__info {
+        font-size: 1.2rem;
+    }
+
+    .openMobile {
+        height: auto;
+    }
+
+}

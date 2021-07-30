@@ -1,0 +1,34 @@
+:root {
+    --background-nav: #115D9D;
+    --text-content-heading-blue: #0056e0;
+    --text-content-heading-black: #494949;
+    --text-link-blue: #08c;
+    --text-link-hover: #005580;
+}
+
+html {
+	font-size: 62.5%;
+	line-height: 1.6rem;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+.app {
+    background-color: #e5ecf4;
+    /* margin-bottom: 10px; */
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding-bottom: 10px;
+    max-width: 1193px;
+}
